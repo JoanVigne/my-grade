@@ -4,5 +4,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     apiKey: '',
     apiBaseUrl: '',
-  }
+  },
+  css: [
+    '@/static/global.css'
+  ]
 })

@@ -1,9 +1,24 @@
 <template>
     <div>
         <h1>HOME PAGE INDEX.VUE</h1>
-        <div v-if="movies">
+        <div v-if="profiles"><ul>
+
+      <li v-for="profile in profiles" :key="profile.id">
+        <NuxtLink :to="`/profile/${profile.id}`">
+        {{ profile.nom }}
+    </NuxtLink></li>
+
+
+    </ul>
+
+        </div>
+        <div v-else>
+            <p>no profiles displayed</p>
+        </div>
+
+        <div v-if="movies" class="container-movies">
             <ul>
-                <MovieCard v-for="movie in movies" :key="movie.id" :movie="movie" />
+                <MovieCardSmall v-for="movie in movies" :key="movie.id" :movie="movie" />
               <!--   <li v-for="movie in movies" :key="movie.titre">
                     <h2>{{ movie.titre }}</h2>
                     <p>{{ movie.description }}</p>
@@ -22,17 +37,33 @@
 
 <script>
 import moviesData from '~/static/movies.json';
+import profileData from '~/static/profiles.json';
 
-import MovieCard from '~/components/MovieCard.vue'; 
+import MovieCardSmall from '~/components/MovieCardSmall.vue'; 
 
 export default {
   components: {
-    MovieCard,  
+    MovieCardSmall,  
   },
   data(){
     return {
-      movies: moviesData
+      movies: moviesData,
+      profiles: profileData
     };
   }
 }
+// 
+
+
 </script>
+
+
+<style scoped>
+.container-movies ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+</style>

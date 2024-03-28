@@ -1,0 +1,24 @@
+[
+    {
+      "id": "u1a4h7k",
+      "nom": "Alice",
+      "age": 30,
+      "ville": "Paris",
+      "email": "alice@example.com"
+    },
+    {
+      "id": "p3w9s2x",
+      "nom": "Bob",
+      "age": 25,
+      "ville": "New York",
+      "email": "bob@example.com"
+    },
+    {
+      "id": "q8r2t5y",
+      "nom": "Charlie",
+      "age": 35,
+      "ville": "Londres",
+      "email": "charlie@example.com"
+    }
+  ]
+  

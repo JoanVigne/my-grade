@@ -1,4 +1,5 @@
 <template>
+      <NuxtLink :to="`/content/${movie.id}`">
     <li class="movie-card">
       <h2>{{ movie.titre }}</h2>
       <p>{{ movie.description }}</p>
@@ -7,6 +8,7 @@
       <p>Acteurs: {{ movie.acteurs.join(', ') }}</p>
       <p>Genre: {{ movie.genre.join(', ') }}</p>
     </li>
+</NuxtLink>
   </template>   
 
 <script>
@@ -26,5 +28,6 @@ export default {
   background-color: #f0f0f0;
   padding: 20px;
   margin-bottom: 20px;
+ 
 }
 </style>

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "titre": "Inception",
     "description": "Dom Cobb est un voleur expérimenté, le meilleur dans l'art dangereux de l'extraction : sa spécialité consiste à s'approprier les secrets les plus précieux d'un individu, enfouis au plus profond de son subconscient, pendant qu'il rêve et que son esprit est particulièrement vulnérable.",
     "date_de_sortie": "2010-07-16",
@@ -8,6 +9,7 @@
     "genre": ["Science-fiction", "Thriller"]
   },
   {
+    "id": 2,
     "titre": "Interstellar",
     "description": "Le film raconte les aventures d'un groupe d'explorateurs qui utilisent une faille récemment découverte dans l'espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques dans un voyage interstellaire.",
     "date_de_sortie": "2014-11-05",
@@ -16,6 +18,7 @@
     "genre": ["Science-fiction", "Drame"]
   },
   {
+    "id": 3,
     "titre": "Le Seigneur des anneaux : La Communauté de l'anneau",
     "description": "Frodon Sacquet, un jeune Hobbit, hérite d'un anneau magique et entreprend un périple pour le détruire afin d'empêcher le Seigneur des Ténèbres de s'en emparer et de réduire en esclavage la Terre du Milieu.",
     "date_de_sortie": "2001-12-19",
@@ -24,6 +27,7 @@
     "genre": ["Fantasy", "Aventure"]
   },
   {
+    "id": 4,
     "titre": "Forrest Gump",
     "description": "Forrest Gump, un homme au QI très bas, raconte l'histoire de sa vie extraordinaire, qui l'a conduit à travers plusieurs décennies de l'histoire américaine, tout en poursuivant l'amour de sa vie, Jenny.",
     "date_de_sortie": "1994-07-06",
@@ -32,6 +36,7 @@
     "genre": ["Drame", "Romance"]
   },
   {
+    "id": 5,
     "titre": "Pulp Fiction",
     "description": "Le film présente plusieurs histoires entrelacées sur la vie criminelle de Los Angeles, y compris celle d'un boxeur, d'un gangster et de deux tueurs à gages, tous liés par une mystérieuse mallette.",
     "date_de_sortie": "1994-10-14",
@@ -40,6 +45,7 @@
     "genre": ["Drame", "Thriller"]
   },
   {
+    "id": 6,
     "titre": "Le Parrain",
     "description": "Le film raconte l'histoire de la famille Corleone, dirigée par Don Vito Corleone, et de son successeur, Michael, alors qu'ils naviguent dans le monde sombre du crime organisé.",
     "date_de_sortie": "1972-03-15",
@@ -48,6 +54,7 @@
     "genre": ["Drame", "Crime"]
   },
   {
+    "id": 7,
     "titre": "The Dark Knight",
     "description": "Batman s'associe au procureur Harvey Dent et au lieutenant James Gordon pour tenter de démanteler la pègre organisée de Gotham City, représentée par le Joker.",
     "date_de_sortie": "2008-07-16",
@@ -56,6 +63,7 @@
     "genre": ["Action", "Drame"]
   },
   {
+    "id": 8,
     "titre": "Fight Club",
     "description": "Un employé de bureau insomniaque et un vendeur de savon excentrique créent un club clandestin de combats où les hommes peuvent se libérer de leurs frustrations en se battant.",
     "date_de_sortie": "1999-10-15",
@@ -64,6 +72,7 @@
     "genre": ["Drame", "Thriller"]
   },
   {
+    "id": 9,
     "titre": "Matrix",
     "description": "Un programmeur découvre que le monde dans lequel il vit est en fait une simulation informatique créée par des machines, et il se joint à une rébellion pour libérer l'humanité de l'emprise des machines.",
     "date_de_sortie": "1999-03-31",
@@ -72,6 +81,7 @@
     "genre": ["Science-fiction", "Action"]
   },
   {
+    "id": 10,
     "titre": "La Ligne verte",
     "description": "Le gardien d'une prison raconte l'histoire de John Coffey, un détenu doux et géant, condamné à mort pour le meurtre de deux jeunes filles, mais qui cache un don miraculeux.",
     "date_de_sortie": "1999-12-10",

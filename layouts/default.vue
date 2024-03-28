@@ -1,8 +1,11 @@
 <template>
-    <nav>
+    <header>
+        <nav>
 
-        <NuxtLink to="/">Home</NuxtLink>
-    </nav>
+<NuxtLink to="/">Home</NuxtLink>
+</nav>
+    </header>
+  
     <main>
         <slot/>
 
@@ -15,3 +18,14 @@
             veniam nisi. Impedit laborum odio sapiente nesciunt pariatur.</p>
     </footer>
 </template>
+
+<style>
+header {
+    display: flex;
+    justify-content: space-around;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+</style>
